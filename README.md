@@ -46,12 +46,12 @@ my.setGroup("INFO", columnas); //Create a JSON: Key "INFO" : [Value (Data from c
 
 //Add a Key and a column value from the DB Access
 my.setColumn("Name", 3); //Create a JSON: Key "Name" : Value (Data from column 3)
-my.setColumn("Age", 4); //Create a JSON: Key "Name" : Value (Data from column 4)
-my.setColumn("Adress", 5); //Create a JSON: Key "Name" : Value (Data from column 5)
-my.setColumn("Telefon", 6); //Create a JSON: Key "Name" : Value (Data from column 6)
-my.setColumn("Dad", 7); //Create a JSON: Key "Name" : Value (Data from column 7)
-my.setColumn("Mum", 8); //Create a JSON: Key "Name" : Value (Data from column 8)
-my.setColumn("Register", 9); //Create a JSON: Key "Name" : Value (Data from column 9)
+my.setColumn("Age", 4); //Create a JSON: Key "Age" : Value (Data from column 4)
+my.setColumn("Adress", 5); //Create a JSON: Key "Adress" : Value (Data from column 5)
+my.setColumn("Telefon", 6); //Create a JSON: Key "Telefon" : Value (Data from column 6)
+my.setColumn("Dad", 7); //Create a JSON: Key "Dad" : Value (Data from column 7)
+my.setColumn("Mum", 8); //Create a JSON: Key "Mum" : Value (Data from column 8)
+my.setColumn("Register", 9); //Create a JSON: Key "Register" : Value (Data from column 9)
 
 //Read the DB and generate the JSON file from the configurations methods
 my.setToJSON();
